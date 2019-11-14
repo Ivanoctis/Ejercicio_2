@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio2</string>
+    <string name="Button1">Empecemos</string>
+    <string name="Mssg1">¿Estas listo?</string>
+    <string name="Mssg2">Digita el numero(max. 4 digitos)</string>
+    <string name="Mssg3">Ingresa 20 numeros</string>
+    <string name="ButtonAdd">Agregar</string>
+    <string name="ButtonClear">Borrar todo el arreglo</string>
+</resources>
