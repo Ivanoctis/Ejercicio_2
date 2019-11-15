@@ -8,25 +8,38 @@
 
     <TextView
         android:id="@+id/Texto1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_width="319dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
         android:text="@string/Mssg1"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/Empezar"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Empezar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="340dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="128dp"
         android:onClick="Start"
         android:text="@string/Button1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/size" />
+
+    <EditText
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/input"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Texto1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
